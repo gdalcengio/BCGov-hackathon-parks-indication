@@ -49,3 +49,10 @@ $tag-tokens: utilities.merge(
 :root {
   @include theme.theme();
 }
+
+.map {
+  height: 80vh;
+  width: 80vw;
+  margin: auto;
+  margin-top: 2rem;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
 
 import {
   Tile,
@@ -16,9 +17,20 @@ const Home: React.FC = () => {
     <>
       <BCHeader />
       <FlexGrid className="mainContainer">
-        <FlexGrid container="true" spacing={4}>
+        <div>
           <h1 data-testid="home-title">BC Campgrounds</h1> 
-        </FlexGrid>
+          <MapContainer center={[53, -127]} zoom={6} scrollWheelZoom={false} className="map">
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={[51.505, -0.09]}>
+              <Popup>
+                A pretty CSS3 popup. <br /> Easily customizable.
+              </Popup>
+            </Marker>
+        </MapContainer>
+        </div>
       </FlexGrid>
     </>
   );
