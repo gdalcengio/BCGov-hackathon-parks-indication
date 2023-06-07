@@ -17,6 +17,7 @@ const Home: React.FC = () => {
   // const [currPosition, setCurrPosition] = useState([53, -127] as LatLngExpression)<LatLngExpression>;
   const [displayData, setDisplayData] = useState(campgrounds);
   const [formToggle, setFormToggle] = useState(true);
+  const [mapToggle, setMapToggle] = useState(true);
 
   const Landing: React.FC = () => {
     return (
@@ -68,12 +69,52 @@ const Home: React.FC = () => {
 
   const Toggles: React.FC = () => {
     return (
-      <>
-        <FlexGrid className="toggles">
-          <Button>Map</Button>
-          <Button>Map</Button>
-        </FlexGrid>
-      </>
+        <div className="toggles">
+          <Button className="toggle-button" onClick={() => {setMapToggle(true)}}>Map</Button>
+          <Button className="toggle-button" onClick={() => {setMapToggle(false)}}>Campground</Button>
+        </div>
+    );
+  };
+
+  const MapStuff: React.FC = () => {
+    return (
+      <FlexGrid className="mapContainer">
+      <div className="map-container">
+        <MapContainer center={[53, -127]} zoom={6} scrollWheelZoom={true} className="map">
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+          {
+            displayData.map((site, index) => (
+              <Marker key={index} position={{lat: site?.geo?.latitude, lng: site?.geo?.longitude}}>
+                <Popup>
+                  <h4>
+                    {site?.name}
+                  </h4>
+                  <Button onClick={() => {
+                    setMapToggle(false);
+                  }}>details</Button>
+                </Popup>
+              </Marker>
+            ))
+          }
+        </MapContainer> 
+      </div>
+    </FlexGrid>
+    );
+  };
+
+  const CampStuff: React.FC = () => {
+    return (
+      <div className="flexible">
+        <div>
+          {/* here goes the two images */}
+        </div>
+        <div>
+          {/* here goes the details */}
+        </div>
+      </div>
     );
   };
 
@@ -89,28 +130,11 @@ const Home: React.FC = () => {
           {
             !formToggle 
             &&
-            <FlexGrid className="mapContainer">
+            <>
               <Toggles></Toggles>
-              <MapContainer center={[53, -127]} zoom={6} scrollWheelZoom={true} className="map">
-                <TileLayer
-                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-                {
-                  displayData.map((site, index) => (
-                    <Marker key={index} position={{lat: site?.geo?.latitude, lng: site?.geo?.longitude}}>
-                      <Popup>
-                        <h4>
-                          {site?.name}
-                        </h4>
-                        {site?.description}
-                      </Popup>
-                    </Marker>
-                  ))
-                }
-              </MapContainer> 
-            </FlexGrid>
-            }
+              {mapToggle ? <MapStuff></MapStuff> : <CampStuff></CampStuff>}
+            </>
+          }
           </div>
       </FlexGrid>
     </>
