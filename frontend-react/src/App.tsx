@@ -21,39 +21,39 @@ import Logout from './components/Logout';
  * @returns {JSX.Element} instance of the app ready to use.
  */
 const App: React.FC = () => {
-  const { signed } = useAuth();
+  // const { signed } = useAuth();
 
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/silent-check-sso" element={<SilentCheckSso />} />
-        <Route path="/logout" element={<Logout />} />
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/silent-check-sso" element={<SilentCheckSso />} /> */}
+        {/* <Route path="/logout" element={<Logout />} /> */}
 
         <Route
           path="/home"
           element={(
-            <ProtectedRoute signed={signed}>
+            // <ProtectedRoute signed={signed}>
               <Home />
-            </ProtectedRoute>
+            // </ProtectedRoute>
           )}
         />
 
         <Route
           path="/form"
           element={(
-            <ProtectedRoute signed={signed}>
+            // <ProtectedRoute signed={signed}>
               <Form />
-            </ProtectedRoute>
+            // </ProtectedRoute>
           )}
         />
 
         <Route
           path="/table"
           element={(
-            <ProtectedRoute signed={signed}>
+            // <ProtectedRoute signed={signed}>
               <Table />
-            </ProtectedRoute>
+            // </ProtectedRoute>
           )}
         />
       </Routes>

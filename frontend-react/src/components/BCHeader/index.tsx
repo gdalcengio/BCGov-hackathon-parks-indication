@@ -26,15 +26,15 @@ const BCHeader = () => {
     <Theme theme="g100">
       <Header aria-label="BC Gov's NR Sample App" data-testid="header">
         <Link to="/home" className="header-link" data-testid="header-name">
-          BC Gov&apos;s NR Sample App
+          Team Chickadee
         </Link>
         <HeaderGlobalBar>
-          <Button
+          {/* <Button
             onClick={() => goOut()}
             size="sm"
           >
             Logout
-          </Button>
+          </Button> */}
           <HeaderGlobalAction
             aria-label="Search"
             tooltipAlignment="end"
