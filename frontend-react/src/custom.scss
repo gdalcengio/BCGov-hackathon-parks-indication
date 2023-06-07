@@ -56,3 +56,19 @@ $tag-tokens: utilities.merge(
   margin: auto;
   margin-top: 2rem;
 }
+
+input, label, select {
+  display: block;
+  padding: 1rem;
+}
+
+.group {
+  display: block;
+}
+
+
+form {
+  width: 60vw;
+  margin: auto;
+  margin-top: 2rem;
+}
