@@ -33,6 +33,19 @@ const Home: React.FC = () => {
                 Current position
               </Popup>
             </Marker>
+
+            {
+              displayData.map((site, index) => (
+                <Marker key={index} position={{lat: site?.geo?.latitude, lng: site?.geo?.longitude}}>
+                  <Popup>
+                    <h4>
+                      {site?.name}
+                    </h4>
+                    {site?.description}
+                  </Popup>
+                </Marker>
+              ))
+            }
         </MapContainer>
         </div>
       </FlexGrid>
