@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
+import * as campgroundsJSON from "../../../public/campgrounds.json";
+const campgrounds = campgroundsJSON.campgrounds;
 
 import {
   Tile,
@@ -12,6 +14,8 @@ import {
 import BCHeader from '../../components/BCHeader';
 
 const Home: React.FC = () => {
+  const [currPosition, setCurrPosition] = useState([53, -127] as LatLngExpression)<LatLngExpression>;
+  const [displayData, setDisplayData] = useState(campgrounds);
 
   return (
     <>
@@ -24,9 +28,9 @@ const Home: React.FC = () => {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Marker position={[51.505, -0.09]}>
+            <Marker position={currPosition}>
               <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
+                Current position
               </Popup>
             </Marker>
         </MapContainer>

@@ -1,0 +1,337 @@
+{
+  "campgrounds": [
+    {
+      "name": "Alice Lake Provincial Park",
+      "location": "Squamish",
+      "description": "This campground offers stunning views of Alice Lake and a variety of recreational activities, including hiking, fishing, and swimming.",
+      "geo": {
+        "latitude": 49.7956,
+        "longitude": -123.1462
+      }
+    },
+    {
+      "name": "Golden Ears Provincial Park",
+      "location": "Maple Ridge",
+      "description": "Situated in a beautiful forested area, Golden Ears Provincial Park offers camping, hiking trails, fishing, and swimming.",
+      "geo": {
+        "latitude": 49.2735,
+        "longitude": -122.5082
+      }
+    },
+    {
+      "name": "Joffre Lakes Provincial Park",
+      "location": "Pemberton",
+      "description": "Joffre Lakes Provincial Park is known for its stunning turquoise lakes and breathtaking mountain views, offering camping and hiking opportunities.",
+      "geo": {
+        "latitude": 50.3907,
+        "longitude": -122.5385
+      }
+    },
+    {
+      "name": "Ruckle Provincial Park",
+      "location": "Salt Spring Island",
+      "description": "Ruckle Provincial Park is a scenic waterfront campground with picturesque views, hiking trails, and beach access.",
+      "geo": {
+        "latitude": 48.7587,
+        "longitude": -123.2719
+      }
+    },
+    {
+      "name": "Pacific Rim National Park Reserve",
+      "location": "Tofino",
+      "description": "Located on Vancouver Island, Pacific Rim National Park Reserve offers stunning coastal scenery, camping, hiking, and surfing opportunities.",
+      "geo": {
+        "latitude": 48.9429,
+        "longitude": -125.5410
+      }
+    },
+    {
+      "name": "Kokanee Creek Provincial Park",
+      "location": "Nelson",
+      "description": "Kokanee Creek Provincial Park features a beautiful lakeshore campground and offers fishing, swimming, hiking, and wildlife viewing.",
+      "geo": {
+        "latitude": 49.6894,
+        "longitude": -117.1945
+      }
+    },
+    {
+      "name": "Miracle Beach Provincial Park",
+      "location": "Black Creek",
+      "description": "Miracle Beach Provincial Park offers a sandy beach, scenic trails, and forested campsites along the Strait of Georgia.",
+      "geo": {
+        "latitude": 49.9232,
+        "longitude": -125.1183
+      }
+    },
+    {
+      "name": "Cypress Provincial Park",
+      "location": "West Vancouver",
+      "description": "Cypress Provincial Park is known for its skiing in the winter and offers camping, hiking, and mountain biking in the summer.",
+      "geo": {
+        "latitude": 49.3856,
+        "longitude": -123.2003
+      }
+    },
+    {
+      "name": "Manning Provincial Park",
+      "location": "Princeton",
+      "description": "Manning Provincial Park is a vast wilderness area with alpine meadows, lakes, and diverse wildlife, offering camping and hiking opportunities.",
+      "geo": {
+        "latitude": 49.0732,
+        "longitude": -120.8270
+      }
+    },
+    {
+      "name": "Herald Provincial Park",
+      "location": "Salmon Arm",
+      "description": "Herald Provincial Park is a scenic campground located on the shores of Shuswap Lake, offering fishing, boating, and hiking.",
+      "geo": {
+        "latitude": 50.9120,
+        "longitude": -119.2479
+      }
+    },
+    {
+      "name": "Rathtrevor Beach Provincial Park",
+      "location": "Parksville",
+      "description": "Rathtrevor Beach Provincial Park is a popular seaside campground with sandy beaches, nature trails, and abundant wildlife.",
+      "geo": {
+        "latitude": 49.3214,
+        "longitude": -124.3391
+      }
+    },
+    {
+      "name": "Wells Gray Provincial Park",
+      "location": "Clearwater",
+      "description": "Wells Gray Provincial Park is a vast wilderness area with waterfalls, lakes, and abundant wildlife, offering camping, hiking, and canoeing.",
+      "geo": {
+        "latitude": 51.8844,
+        "longitude": -120.0590
+      }
+    },
+    {
+      "name": "Kootenay National Park",
+      "location": "Radium Hot Springs",
+      "description": "Kootenay National Park offers breathtaking mountain scenery, camping, hiking trails, and natural hot springs.",
+      "geo": {
+        "latitude": 50.8633,
+        "longitude": -116.1056
+      }
+    },
+    {
+      "name": "Strathcona Provincial Park",
+      "location": "Campbell River",
+      "description": "Strathcona Provincial Park is the oldest provincial park in British Columbia, featuring rugged mountains, glaciers, and pristine lakes, ideal for camping and hiking.",
+      "geo": {
+        "latitude": 49.7959,
+        "longitude": -125.5980
+      }
+    },
+    {
+      "name": "Juan de Fuca Provincial Park",
+      "location": "Sooke",
+      "description": "Juan de Fuca Provincial Park offers scenic coastal trails, beach camping, and opportunities for wildlife spotting and marine exploration.",
+      "geo": {
+        "latitude": 48.4373,
+        "longitude": -123.9177
+      }
+    },
+    {
+      "name": "Mount Robson Provincial Park",
+      "location": "Valemount",
+      "description": "Mount Robson Provincial Park is home to the highest peak in the Canadian Rockies, offering camping, hiking, and stunning views of glaciers and waterfalls.",
+      "geo": {
+        "latitude": 53.1107,
+        "longitude": -119.1550
+      }
+    },
+    {
+      "name": "Sasquatch Provincial Park",
+      "location": "Harrison Mills",
+      "description": "Sasquatch Provincial Park is a picturesque lakeside campground with hiking trails, fishing, and opportunities for wildlife viewing.",
+      "geo": {
+        "latitude": 49.2720,
+        "longitude": -121.8100
+      }
+    },
+    {
+      "name": "Haynes Point Provincial Park",
+      "location": "Osoyoos",
+      "description": "Haynes Point Provincial Park is located on a scenic peninsula jutting into Osoyoos Lake, offering sandy beaches, camping, and birdwatching.",
+      "geo": {
+        "latitude": 49.0152,
+        "longitude": -119.4687
+      }
+    },
+    {
+      "name": "Mount Seymour Provincial Park",
+      "location": "North Vancouver",
+      "description": "Mount Seymour Provincial Park is a popular destination for hiking, skiing, and camping, known for its stunning mountain views and alpine meadows.",
+      "geo": {
+        "latitude": 49.3720,
+        "longitude": -122.9478
+      }
+    },
+    {
+      "name": "Skagit Valley Provincial Park",
+      "location": "Hope",
+      "description": "Skagit Valley Provincial Park is a remote wilderness area with old-growth forests, pristine lakes, and rugged mountain peaks, offering camping and hiking opportunities.",
+      "geo": {
+        "latitude": 49.0207,
+        "longitude": -121.4920
+      }
+    },
+    {
+      "name": "Monte Creek Ranch Winery",
+      "location": "Monte Creek",
+      "description": "Monte Creek Ranch Winery offers a unique camping experience amidst the vineyards, with wine tasting, farm tours, and beautiful views of the surrounding hills.",
+      "geo": {
+        "latitude": 50.6694,
+        "longitude": -119.9003
+      }
+    },
+    {
+      "name": "Kettle River Recreation Area",
+      "location": "Rock Creek",
+      "description": "Kettle River Recreation Area features a riverside campground, sandy beaches, and opportunities for swimming, fishing, and kayaking.",
+      "geo": {
+        "latitude": 49.0569,
+        "longitude": -118.9779
+      }
+    },
+    {
+      "name": "Shuswap Lake Provincial Park",
+      "location": "Salmon Arm",
+      "description": "Shuswap Lake Provincial Park offers lakeside camping, sandy beaches, and a range of water activities, including boating, fishing, and water skiing.",
+      "geo": {
+        "latitude": 50.8826,
+        "longitude": -119.2617
+      }
+    },
+    {
+      "name": "Gladstone Provincial Park",
+      "location": "Oliver",
+      "description": "Gladstone Provincial Park is a remote wilderness area with pristine lakes, alpine meadows, and rugged mountains, offering camping and hiking opportunities.",
+      "geo": {
+        "latitude": 49.0480,
+        "longitude": -120.9690
+      }
+    },
+    {
+      "name": "Bella Pacifica Campground",
+      "location": "Tofino",
+      "description": "Bella Pacifica Campground is a beachfront campground with stunning ocean views, beach access, and opportunities for surfing and beachcombing.",
+      "geo": {
+        "latitude": 49.0777,
+        "longitude": -125.8695
+      }
+    },
+    {
+      "name": "Kalamalka Lake Provincial Park",
+      "location": "Vernon",
+      "description": "Kalamalka Lake Provincial Park features beautiful turquoise waters, sandy beaches, and hiking trails, perfect for camping, swimming, and wildlife viewing.",
+      "geo": {
+        "latitude": 50.1803,
+        "longitude": -119.3546
+      }
+    },
+    {
+      "name": "Hemlock Valley",
+      "location": "Agassiz",
+      "description": "Hemlock Valley is a mountain resort area that offers camping, skiing, snowboarding, and a range of outdoor activities throughout the year.",
+      "geo": {
+        "latitude": 49.3673,
+        "longitude": -121.9272
+      }
+    },
+    {
+      "name": "Mount Fernie Provincial Park",
+      "location": "Fernie",
+      "description": "Mount Fernie Provincial Park is a scenic mountain retreat with hiking trails, fishing opportunities, and stunning views of the surrounding peaks.",
+      "geo": {
+        "latitude": 49.5239,
+        "longitude": -115.0469
+      }
+    },
+    {
+      "name": "Durrance Lake Campground",
+      "location": "Victoria",
+      "description": "Durrance Lake Campground is a small and peaceful campground near Victoria, offering camping, swimming, and fishing in a tranquil lake setting.",
+      "geo": {
+        "latitude": 48.5453,
+        "longitude": -123.4647
+      }
+    },
+    {
+      "name": "West Lake Provincial Park",
+      "location": "Port Renfrew",
+      "description": "West Lake Provincial Park offers lakeside camping, fishing, and hiking opportunities amidst beautiful coastal rainforest scenery.",
+      "geo": {
+        "latitude": 48.5958,
+        "longitude": -124.4333
+      }
+    },
+    {
+      "name": "Desolation Sound Marine Provincial Park",
+      "location": "Powell River",
+      "description": "Desolation Sound Marine Provincial Park is a popular boating and kayaking destination, with stunning fjords, islands, and secluded campsites.",
+      "geo": {
+        "latitude": 50.0749,
+        "longitude": -124.7467
+      }
+    },
+    {
+      "name": "Nairn Falls Provincial Park",
+      "location": "Pemberton",
+      "description": "Nairn Falls Provincial Park features a picturesque waterfall, camping opportunities, and hiking trails through a lush forested landscape.",
+      "geo": {
+        "latitude": 50.3628,
+        "longitude": -122.8247
+      }
+    },
+    {
+      "name": "Bamberton Provincial Park",
+      "location": "Mill Bay",
+      "description": "Bamberton Provincial Park is a waterfront campground with views of Finlayson Arm, offering camping, hiking, and beachcombing.",
+      "geo": {
+        "latitude": 48.5962,
+        "longitude": -123.5347
+      }
+    },
+    {
+      "name": "MacMillan Provincial Park",
+      "location": "Port Alberni",
+      "description": "MacMillan Provincial Park is home to Cathedral Grove, an old-growth forest with towering Douglas fir trees, offering camping and nature walks.",
+      "geo": {
+        "latitude": 49.3128,
+        "longitude": -124.5980
+      }
+    },
+    {
+      "name": "Witty's Lagoon Regional Park",
+      "location": "Metchosin",
+      "description": "Witty's Lagoon Regional Park is a coastal park with sandy beaches, tidal lagoons, and nature trails, perfect for picnicking and wildlife observation.",
+      "geo": {
+        "latitude": 48.3953,
+        "longitude": -123.5305
+      }
+    },
+    {
+      "name": "Stamp River Provincial Park",
+      "location": "Port Alberni",
+      "description": "Stamp River Provincial Park offers camping, fishing, and opportunities to observe salmon spawning during the fall season.",
+      "geo": {
+        "latitude": 49.3280,
+        "longitude": -124.7597
+      }
+    },
+    {
+      "name": "Kikomun Creek Provincial Park",
+      "location": "Baynes Lake",
+      "description": "Kikomun Creek Provincial Park is a lakeside campground with swimming beaches, boating, and fishing opportunities in the picturesque Kootenay region.",
+      "geo": {
+        "latitude": 49.0118,
+        "longitude": -115.1013
+      }
+    }
+  ]
+}
