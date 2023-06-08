@@ -4,6 +4,7 @@ import {
   BrowserRouter, Routes, Route
 } from 'react-router-dom';
 
+import 'bootstrap/dist/css/bootstrap.css';
 import './custom.scss';
 
 import Landing from './views/Landing';
@@ -34,7 +35,7 @@ const App: React.FC = () => {
           path="/home"
           element={(
             // <ProtectedRoute signed={signed}>
-              <Home />
+            <Home />
             // </ProtectedRoute>
           )}
         />
@@ -43,7 +44,7 @@ const App: React.FC = () => {
           path="/form"
           element={(
             // <ProtectedRoute signed={signed}>
-              <Form />
+            <Form />
             // </ProtectedRoute>
           )}
         />
@@ -52,7 +53,7 @@ const App: React.FC = () => {
           path="/table"
           element={(
             // <ProtectedRoute signed={signed}>
-              <Table />
+            <Table />
             // </ProtectedRoute>
           )}
         />
