@@ -55,13 +55,17 @@ const Home: React.FC = () => {
               </label>
               <label>
                 Equipment:
-                <input type="text" name="name" className='form-control' />
+                <select name="region" className='form-control'>
+                  <option value="1tent">1 tent</option>
+                  <option value="banana">2 tents</option>
+                  <option value="orange">3 tents</option>
+                </select>
               </label>
               <label>
                 Party:
-                <input type="text" name="name" className='form-control' />
+                <input type="number" name="name" className='form-control' />
               </label>
-              <Button onClick={() => setFormToggle(false)}>Test</Button>
+              <Button onClick={() => setFormToggle(false)}>Search</Button>
             </div>
           </form>
         </FlexGrid>
